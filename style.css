@@ -11,15 +11,45 @@
 nav{
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
 }
-nav .first{
-    height: 40px;
+nav .blu{
+    text-align: center;
+    padding: 10px;
+    color: #ffffffd8;
+    background-color: #070023;
+    font-size: 9px;
 }
-nav .nd{
-    height: 60px;
+nav .white{
+    padding: 10px;
 }
-
+nav .white .logo{
+    position: relative;
+}
+nav .white .logo .join{
+    display: flex;
+}
+.g{
+    width: 30px;
+}
+.leam{
+    width: 25px;
+    height: 10px;
+}
+nav .menu{
+    display: flex;
+    gap: 2rem;
+}
+nav .menu ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #070023;
+    font-size: 9px;
+}
+nav .menu button
 .txt{
     padding-left: 50px;
 }
