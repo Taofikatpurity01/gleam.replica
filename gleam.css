@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+   
+    background-color: red;
+    
+}
+.dropdown{
+    width: 50%;
+    padding: 30px;
+    background-color: whitesmoke;
+    align-self: center;
+   
+}
+
+.lm{
+    display: flex;
+    gap: 2rem;
+    /* justify-content: space-between; */
+    /* font-size: 12px; */
+}
+.lm div{
+    display: flex;
+    gap:1rem;
+    font-size: 13px;
+    font-weight: 900;
+    width: 70%;
+}
+.menu{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        width: 20%;
+        margin-left: 20px;
+}
+i{
+    font-weight: 900;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: #070023;
+    font-size: 15px;
+    font-weight: 800;
+}
+.menu button{
+    background-color: #000A66;
+    color: #ffffffd8;
+    font-size: 14px;
+    border-radius: 28px;
+    width: 200px;
+    /* height: 30px; */
+    padding: 15px 22px;
+}

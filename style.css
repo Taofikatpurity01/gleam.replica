@@ -91,7 +91,7 @@ nav .menu button{
     padding-bottom: 20px;
 }
 .all h1{
-    font-size: 45px;
+    font-size: 49px;
 }
 .txt .btn{
     padding: 15px 0;
@@ -122,4 +122,67 @@ nav .menu button{
 .hand img{
     width: 100%;
     overflow: hidden;
+}
+@media only screen and (max-width:600px){
+    .txt{
+        font-family: 'Roboto', sans-serif;
+    }
+    .menu{
+        display: none;
+        visibility: hidden;
+    }
+    .txt .all{
+        /* width: 80%; */
+        padding: 40px;
+    }
+    .spark{
+        font-size: 10px;
+
+    }
+    nav .blu{
+        text-align: center;
+        /* padding: 15px; */
+        font-size: 8px;
+    }
+    .white .icons{
+        display: block;
+    }
+    .txt .all{
+        width: 90%;
+    }
+    .all h1{
+        font-size: 35px;
+    }
+    .dey{
+        display: none;
+    }
+    nav .rem{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .and .mobile{
+        display: block;
+    }
+}
+@media only screen and (max-width:1440px){
+    .txt{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: none !important;
+    /* visibility: hidden; */
+}
+.rem{
+    display: none;
+}
+.mobile{
+    display: none;
+}
 }
