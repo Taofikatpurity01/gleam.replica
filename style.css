@@ -131,17 +131,11 @@ nav .menu button{
         display: none;
         visibility: hidden;
     }
-    .txt .all{
-        /* width: 80%; */
-        padding: 40px;
-    }
     .spark{
         font-size: 10px;
-
     }
     nav .blu{
         text-align: center;
-        /* padding: 15px; */
         font-size: 8px;
     }
     .white .icons{
@@ -164,6 +158,7 @@ nav .menu button{
     }
     .and .mobile{
         display: block;
+        overflow: hidden;
     }
 }
 @media only screen and (max-width:1440px){
@@ -176,8 +171,7 @@ nav{
     flex-direction: column;
 }
 .icons{
-    display: none !important;
-    /* visibility: hidden; */
+    display: none ;
 }
 .rem{
     display: none;
