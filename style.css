@@ -13,6 +13,7 @@ nav{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 nav .blu{
     text-align: center;
@@ -21,12 +22,13 @@ nav .blu{
     background-color:  #000A66;
     font-size: 13px;
 }
+
 nav .blu a{
     color: #ffffffc4;
 }
 nav .white{
-    margin-top: 20px;
-    padding: 10px 55px;
+    width: 95%;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -58,18 +60,16 @@ nav .white .logo .join{
     position: absolute;
     top: 19px;
 }
-nav .menu{
+ nav .menu{
     display: flex;
     gap: 2.5rem;
-    width: 50%;
-    /* margin-top: 50px; */
-    text-align: center;
+    /* width: 50%; */
+    /* text-align: center; */
 }
 nav .menu ul{
     display: flex;
     gap: 2rem;
     list-style: none;
-    /* margin-top: 15px; */
     align-items:center ;
 }
 nav .menu a{
@@ -82,11 +82,10 @@ nav .menu button{
     color: #ffffffd8;
     font-size: 13px;
     border-radius: 28px;
-    /* width: 100px; */
-    /* height: 30px; */
     padding: 15px 22px;
 }
 .txt{
+    /* width: 90%; */
     padding-left: 17px;
     margin-top: 60px auto;
 }
@@ -160,7 +159,7 @@ nav .menu button{
         font-size: 12px;
     }
     .icons{
-        display: block;
+        display: block ;
     }
     .txt .all{
         width: 100%;
