@@ -60,12 +60,12 @@ nav .white .logo .join{
     position: absolute;
     top: 19px;
 }
- nav .menu{
-    display: flex;
-    gap: 2.5rem;
+ /* nav .menu{ */
+    /* display: flex; */
+    /* gap: 2.5rem; */
     /* width: 50%; */
     /* text-align: center; */
-}
+/* } */
 nav .menu ul{
     display: flex;
     gap: 2rem;
